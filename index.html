@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nqme="description" content="Proyecto introductorio para aprender la estructura y las etiquetas principales de HTML.">
+    <meta name="author" content="JPMC">
+
+    <!-- Texto que aparece en la pestaña del navegador -->
+    <title>Mi primer proyecto HTML</title>
+</head>
+<body id="inicio">
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Mi primer proyecto HTML</h1>
+        <p>Un sitio para practicar la estructura y las etiquetas principales de HTML 5.</p>
+
+        <!-- Menú con enlaces hacia secciones de esta misma página -->
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#acerca-de">Acerca de mi</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#horarios">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal e inicio de la página-->
+    <main>
+        <section id="acerca-de">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DkRCzViUyPiJr4a3XFCraZELq0MaImqiU1mk7pqnDTGxTBnMQzljmKn3&s=10" width="200px" alt="JMPC">
+                <figcaption>Yo ese</figcaption>
+            </figure>
+            <p>Mi nombre es <strong>Pablo</strong> y actualmente estoy cursando Programación WEB con <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+            <p>Me interesa especialmente la <em>creación de contenido y experiencias digitales</em>. Y quiero aprender a desarrollar sitios accesibles y bien estructurados</p>
+        </section>
+        <hr>
+        <section id="habilidades">
+            <h2>Habilidades e intereses</h2>
+            
+            <h3>Mis intereses</h3>
+            <ul>
+                <li>Música</li>
+                <li>Videojuegos</li>
+                <li>Comida</li>
+            </ul>
+
+            <h3>Metas de aprendizaje</h3>
+            <ol>
+                <li>Comprender la estructura de HTML</li>
+                <li>Aprender a modificar la apariencia con CSS</li>
+                <li>Aprender a programar en PHP</li>
+                <li>Conectar mi página con una base de datos(MySQL)</li>
+            </ol>
+        </section>
+        <hr>
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <article>
+                <h3>Página personal</h3>
+                <p>En este proyecto presentaré información sobre mis intereses, habilidades y objetivos profesionales.</p>
+                <a href="https://github.com" target="_blank">Visitar GitHub</a>
+            </article>
+            <article>
+                <h3>Sitio de mi tema favorito</h3>
+                <p>Crearé un sitio informativo sobre series, videojuegos, artistas, o artistas de mi elección.</p>
+            </article>
+        </section>
+        <hr>
+        <section id="horarios">
+            <h2>Horarios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+        <hr>
+        <section id="contacto">
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <address>
+            Elaborado por JPMC <br>
+            Correo: <a href="mailto:jpmc@gmail.com">jpmc@gmail.com</a>
+        </address>
+        <p><a href="#inicio">HOME</a></p>
+    </footer>
+</body>
+</html>
