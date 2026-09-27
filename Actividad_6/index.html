@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 6 | Formularios</title>
+</head>
+<body>
+    <h1>Registrate al evento universitario 2026-B</h1>
+    <form action="" method="post">
+        <label for="nombre">Nombre completo: </label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br>
+        <label for="correo">Correo electrónico: </label>
+        <input type="email" name="correo" id="correo" required>
+        <br>
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" id="edad" required>
+        <br>
+        <label for="f_nacimiento">Fecha de nacimiento: </label>
+        <input type="date" name="f_nacimiento" id="f_nacimiento" required>
+        <br>
+        <label for="carrera">Carrera: </label>
+        <select name="carrera" id="carrera" required>
+            <option value="" disabled selected>Selecciona una carrera</option>
+            <option value="LNEG">LNEG</option>
+            <option value="LIAD">LIAD</option>
+            <option value="LMER">LMER</option>
+            <option value="LINI">LINI</option>
+            <option value="LRRH">LRRH</option>
+            <option value="LRPC">LRPC</option>
+            <option value="LTIN">LTIN</option>
+            <option value="LTUR">LTUR</option>
+        </select>
+        <br><br>
+        <label>Turno de asistencia:</label><br>
+        <input type="radio" name="turno" id="turno_mat" value="matutino" required>Matutino
+        <br>
+        <input type="radio" name="turno" id="turno_ves" value="vespertino">Vespertino
+        <br><br>
+        <label for="">Términos y condiciones</label><br>
+        <input type="checkbox" name="TermyCon" id="TermyCon" required>He leído y acepto los términos y condiciones.
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
