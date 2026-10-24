@@ -1,0 +1,158 @@
+.tablaP {
+    position: relative;
+    background-color: transparent;
+    width: 1265px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.fila {
+    display: flex;
+    gap: 2px;
+    margin: 2px;
+}
+
+.espacio-14 {
+    height: 60px;
+    width: 866px;
+    background-color: transparent;
+}
+.espacio-9 {
+    height: 60px;
+    width: 555px;
+    background-color: transparent;
+}
+
+.num {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 9px;
+}
+
+.simbolo {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.simbolo:hover {
+    background-color: aliceblue;
+}
+
+.nombre {
+    font-size: 7px;
+    margin-top: 4px;
+}
+
+h1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 5px;
+    left: 400px;
+}
+
+.seccion1 {
+    position: absolute;
+    background-color: transparent;
+    width: 188px;
+    height: 436px;
+    top: 70px;
+    left: 50px;
+}
+
+.seccion2 {
+    position: absolute;
+    background-color: transparent;
+    width: 932px;
+    height: 436px;
+    top: 70px;
+    left: 280px;
+}
+
+.seccion3 {
+    position: absolute;
+    background-color: transparent;
+    width: 870px;
+    height: 126px;
+    top: 540px;
+    left: 280px;
+}
+
+.seccion4 {
+    position: absolute;
+    background-color: transparent;
+    width: 800px;
+    height: 105px;
+    top: 680px;
+    left: 220px;
+}
+
+.leyenda {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.col-leyenda {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.texto-leyenda {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja {
+    display: inline;
+    width: 20px;
+    height: 20px;
+}
+
+.metales-alcalinos {
+    background-color: rgb(171, 42, 42);
+}
+.metaloides {
+    background-color: rgb(255, 224, 19);
+}
+.actonoides {
+    background-color: cadetblue;
+}
+.m-alcalinoterreos {
+    background-color: darkgoldenrod;
+}
+.no-metales-reactivos {
+    background-color: rgb(104, 190, 104);
+}
+.propiedades-desc {
+    background-color: lightgrey;
+}
+.metales-transicionales {
+    background-color: lightsteelblue;
+}
+.gases-nobles {
+    background-color: pink;
+}
+.metales-pos {
+    background-color: rgb(199, 111, 199);
+}
+.lantanidos {
+    background-color: steelblue;
+}
