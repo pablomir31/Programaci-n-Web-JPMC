@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion1 {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+}
+
+.logo a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    float: left;
+}
+
+.buscar {
+    float: right;
+}
+
+.enlaces {
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.enlaces a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.seccion2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+}
+
+.cont-izq {
+    float: left;
+    margin-top: 5px;
+    width: 25%;
+}
+
+.cont-centro {
+    float: left;
+    margin: 10px;
+    width: 45%;
+}
+
+.cont-der {
+    float: right;
+    border: 3px solid cyan;
+    margin-top: 5px;
+    padding: 8px;
+    width: 25%;
+}
+
+.noticias {
+    background-color: lightgray;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+h5 {
+    color: cadetblue;
+}
+
+.publicidad {
+    background-color: rgb(254, 225, 175);
+    border: 3px dotted darkgoldenrod;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+.cont-der h3 {
+    background-color: cyan;
+    color: white;
+    padding: 5px;
+}
+
+.cont-izq h3 {
+    color: darkgoldenrod;
+}
+
+img {
+    float: left;
+    margin: 7px;
+    width: 100px;
+    height: 120px;
+}
+
+.s-leyendo {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+.seccion3 {
+    position: relative;
+    background-color: lightgray;
+    width: 100%;
+    height: 200px;
+}
+
+.enlaces-footer {
+    float: left;
+    width: 20%;
+}
+
+.enlaces-footer a {
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    margin: 2px 5px;
+}
+
+.autor {
+    float: right;
+    width: 20%;
+    margin: 20px;
+}
