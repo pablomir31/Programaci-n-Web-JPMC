@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card-libro {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-left: 3px solid #2563eb;
+}
+
+/* Tarjetas de estadísticas en el Dashboard */
+.card-stat {
+    border: none;
+}
+
+.stat-total {
+    background-color: #e2e8f0;
+    border-left: 3px solid #475569;
+}
+.stat-total:hover {
+    background-color: #cbd5e1;
+}
+
+.stat-pendiente {
+    background-color: #fef3c7;
+    border-left: 3px solid #cbaa05;
+}
+.stat-pendiente:hover {
+    background-color: #fde68a;
+}
+
+.stat-leyendo {
+    background-color: #c6eeea;
+    border-left: 3px solid #2a8780;
+}
+.stat-leyendo:hover {
+    background-color: #99e2db;
+}
+
+.stat-terminado {
+    background-color: #dcfce7;
+    border-left: 3px solid #16a34a;
+}
+.stat-terminado:hover {
+    background-color: #bbf7d0;
+}
